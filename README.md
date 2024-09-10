@@ -3,6 +3,7 @@
 ## Задача 1
 
 `cut -d: -f1 /etc/passwd |sort`
+
 ![image](https://github.com/user-attachments/assets/b9adca4b-0a51-4392-951a-5a5dddcf50be)
 
 ## Объяснение
@@ -12,6 +13,7 @@ sort — сортирует строки в алфавитном порядке.
 ## Задача 2
 
 `awk '{print $2, $1}' /etc/protocols | sort -k1,1nr | head -n 5`
+
 ![image](https://github.com/user-attachments/assets/587ca106-49aa-42eb-80dd-8d9e3bc7d64f)
 
 ## Объяснение
@@ -40,6 +42,7 @@ echo "$border"
 echo "| $text |"
 echo "$border"
 ```
+
 ![image](https://github.com/user-attachments/assets/48ccb2d2-b867-4c3f-843b-c58b0d806746)
 
 ## Объяснение
@@ -68,6 +71,7 @@ echo "$border"
 ```
 grep -oE '\b[a-zA-Z_][a-zA-Z0-9_]*\b' hello.go | grep -vE '\b(int|void|return|if|else|for|while|include|stdio)\b' | sort | uniq
 ```
+
 ![image](https://github.com/user-attachments/assets/50793247-9e32-4a04-ac24-fd0d7ae38357)
 
 ## Задача 5
