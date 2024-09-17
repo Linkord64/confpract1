@@ -96,7 +96,7 @@ chmod +x check_comment.sh
 
 ```
 chmod +x find_duplicates.sh  
-./find_duplicates.sh /Users/aslav/Documents/cdr
+./find_duplicates.sh /Users/rusl/Documents/cdr
 ```
 
 ![image](https://github.com/user-attachments/assets/4e0968c3-a7a3-43da-8ec5-0f6517b507cd)
@@ -104,7 +104,7 @@ chmod +x find_duplicates.sh
 ## Задача 8
 
 ```
-go run archiver.go /Users/aslav/Documents/cdr  .log
+go run archiver.go /Users/rusl/Documents/cdr  .log
 ```
 
 
@@ -114,7 +114,7 @@ go run archiver.go /Users/aslav/Documents/cdr  .log
 
 ```
 cd code  
-go run replacer.go /Users/aslav/Desktop/RTU_MIREA_2COURCE/КонфигУправ/1Pract/trash/testFor8.txt   testFor8output.txt
+go run replacer.go /Users/rusl/Desktop/RTU_MIREA_2COURCE/КонфУпр/1Pract/trash/testFor8.txt   testFor8output.txt
 ```
 
 ![image](https://github.com/user-attachments/assets/8ee4a9cf-a9cf-4013-956e-c5ef9b3bdac8)
@@ -124,7 +124,7 @@ go run replacer.go /Users/aslav/Desktop/RTU_MIREA_2COURCE/КонфигУправ
 
 ```
 cd code  
-go run dirReader.go /Users/aslav/Downloads 
+go run dirReader.go /Users/rusl/Downloads 
 ```
 
 ![image](https://github.com/user-attachments/assets/219c6b50-41dc-4c09-b894-7b93830f882a)
